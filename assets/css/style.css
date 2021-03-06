@@ -34,9 +34,33 @@
 }
 
 .about-me {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .about-me__image {
+  max-width: 50%;
+  height: auto;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-me__info {
+  width: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.about-me__title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-me__text {
+  text-align: justify;
 }
 
 .footer {
@@ -46,17 +70,17 @@
 }
 
 @media screen and (max-width: 768px) {
-  .title {
+  .header__title {
     font-size: 2em;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .nav-bar {
+  .header__nav-bar {
     justify-content: center;
   }
 
-  .title {
+  .header__title {
     font-size: 1.5em;
   }
 }
