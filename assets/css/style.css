@@ -3,18 +3,6 @@
   padding: 0;
 }
 
-.nav-bar {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 20px;
-  justify-content: flex-end;
-}
-
-.nav-bar li {
-  display: inline;
-  padding: 5px;
-}
-
 .header {
   background-image: url(../images/hero-img.jpg);
   height: 300px;
@@ -25,12 +13,30 @@
   position: relative;
 }
 
-.title {
+.header__nav-bar {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: flex-end;
+}
+
+.header__nav-bar li {
+  display: inline;
+  padding: 5px;
+}
+
+.header__title {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 3em;
+}
+
+.about-me {
+}
+
+.about-me__image {
 }
 
 .footer {
