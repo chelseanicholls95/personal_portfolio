@@ -54,9 +54,6 @@ body {
 .about-me__image-container {
   height: 20rem;
   max-width: 40rem;
-
-  /* TODO REMOVE  */
-  border: 1px black solid;
 }
 
 .about-me__image {
@@ -86,8 +83,7 @@ body {
 }
 
 .projects__title {
-  /* Todo remove */
-  border: 1px solid red;
+  text-align: center;
 }
 
 .projects__cards-container {
