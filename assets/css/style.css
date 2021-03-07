@@ -76,12 +76,24 @@ body {
   text-align: justify;
 }
 
-/* projects section */
-.projects {
-  /* Todo remove */
-  border: 1px solid red;
+/* contact section */
+.contact {
+  background-color: rgba(0, 0, 0, 0.918);
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
 }
 
+.contact h2 {
+  padding: 2rem;
+}
+
+.contact__info {
+  display: inline;
+  padding: 4rem;
+}
+
+/* projects section */
 .projects__title {
   text-align: center;
 }
@@ -176,5 +188,10 @@ body {
 
   .about-me {
     flex-direction: column;
+  }
+
+  .contact {
+    flex-direction: column;
+    text-align: center;
   }
 }
