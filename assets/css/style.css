@@ -43,6 +43,7 @@ body {
   left: 50%;
   transform: translate(-50%, -70%);
   font-size: 5rem;
+  animation: fadeIn 2s ease-out;
 }
 
 /* about me section */
@@ -193,5 +194,15 @@ body {
   .contact {
     flex-direction: column;
     text-align: center;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 }
