@@ -79,6 +79,30 @@ body {
   text-align: justify;
 }
 
+/* projects section */
+.projects {
+  /* Todo remove */
+  border: 1px solid red;
+}
+
+.projects__title {
+  /* Todo remove */
+  border: 1px solid red;
+}
+
+.projects__cards-container {
+}
+
+.projects__lrg-card {
+  /* Todo remove */
+  border: 1px solid red;
+}
+
+.projects__sml-cards {
+  /* Todo remove */
+  border: 1px solid red;
+}
+
 /* footer */
 .footer {
   border: 1px solid black;
