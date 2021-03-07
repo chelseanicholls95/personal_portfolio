@@ -105,9 +105,11 @@ body {
 .lrg-card {
   margin: 1rem;
   padding: 1rem;
+  padding-top: 4rem;
   height: 40rem;
   max-width: 50rem;
   text-align: center;
+  margin: auto;
 }
 
 .card__image {
