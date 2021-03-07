@@ -1,11 +1,15 @@
-* {
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+body {
   margin: 0;
-  padding: 0;
 }
 
 .header {
   background-image: url(../images/hero-img.jpg);
-  height: 300px;
+  height: 30rem;
   background-size: cover;
   background-position: center;
   display: block;
@@ -16,27 +20,28 @@
 .header__nav-bar {
   display: flex;
   flex-wrap: wrap;
-  padding: 20px;
   justify-content: flex-end;
+  padding: 1rem;
+  padding-left: 2rem;
+  font-size: 2rem;
 }
 
 .header__nav-bar li {
   display: inline;
-  padding: 5px;
+  padding: 0.5rem;
 }
 
 .header__title {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 3em;
+  transform: translate(-50%, -70%);
+  font-size: 5rem;
 }
 
 .about-me {
-  padding: 20px;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .about-me__image {
@@ -49,7 +54,6 @@
 }
 
 .about-me__info {
-  width: 50%;
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -66,7 +70,6 @@
 .footer {
   border: 1px solid black;
   padding: 20px;
-  width: 100%;
 }
 
 @media screen and (max-width: 768px) {
@@ -82,5 +85,9 @@
 
   .header__title {
     font-size: 1.5em;
+  }
+
+  .about-me {
+    flex-direction: column;
   }
 }
