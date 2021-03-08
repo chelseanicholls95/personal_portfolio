@@ -80,6 +80,7 @@ body {
   padding: 1.5rem;
   flex: 2 1 0;
   width: 0;
+  text-align: center;
 }
 
 .about-me__title {
@@ -214,6 +215,8 @@ body {
   .about-me__info {
     flex: auto;
     width: 100%;
+    margin-top: 3rem;
+    padding: 0;
   }
 }
 
