@@ -36,6 +36,11 @@ body {
   padding: 0.5rem;
 }
 
+.header__nav-bar a {
+  text-decoration: none;
+  color: white;
+}
+
 /* main heading */
 .header__title {
   position: absolute;
