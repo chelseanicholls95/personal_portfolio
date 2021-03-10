@@ -186,7 +186,7 @@ body {
 
 /* footer */
 .footer {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.918);
   color: rgba(255, 255, 255, 0.932);
   text-align: center;
   padding: 20px;
