@@ -43,6 +43,10 @@ body {
   color: rgba(255, 255, 255, 0.932);
 }
 
+.header__nav-bar a:hover {
+  color: #686e8e;
+}
+
 /* main heading */
 .header__title {
   position: absolute;
@@ -124,6 +128,10 @@ body {
   color: white;
 }
 
+.contact__info a:hover {
+  color: #686e8e;
+}
+
 /* projects section */
 .projects__title {
   text-align: center;
@@ -164,6 +172,12 @@ body {
   height: 100%;
   width: 100%;
   object-fit: contain;
+  border-radius: 5px;
+}
+
+.card__image:hover {
+  opacity: 70%;
+  border-radius: 20%;
 }
 
 .sml-card {
