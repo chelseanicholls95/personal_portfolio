@@ -132,10 +132,12 @@ body {
 
 .projects__cards-container {
   display: flex;
+  padding-bottom: 2rem;
 }
 
 .projects__lrg-card {
   flex-grow: 1;
+  margin: 0.5rem;
 }
 
 .projects__sml-cards {
@@ -144,12 +146,13 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin: 0.5rem;
 }
 
 .lrg-card {
-  margin: 1rem;
+  margin: 2rem;
   padding: 1rem;
-  padding-top: 4rem;
+  padding-top: 2rem;
   height: 40rem;
   max-width: 50rem;
   text-align: center;
@@ -171,9 +174,14 @@ body {
 }
 
 .card__title {
+  font-family: "Domine", serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 1rem;
 }
 
 .card__info {
+  margin-bottom: 1rem;
 }
 
 /* footer */
