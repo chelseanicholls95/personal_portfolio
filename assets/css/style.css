@@ -149,7 +149,7 @@ body {
   margin: 0.5rem;
 }
 
-.projects__sml-cards {
+.projects__small-cards {
   flex-grow: 1;
   flex-basis: 50%;
   display: flex;
@@ -168,20 +168,29 @@ body {
   margin: auto;
 }
 
-.card__image {
-  height: 100%;
+.card__image-lrg {
+  height: 30rem;
   width: 100%;
   object-fit: contain;
   border-radius: 5px;
   border: 2px solid #686e8e;
 }
 
-.card__image:hover {
+.card__image-small {
+  height: 15rem;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 5px;
+  border: 2px solid #686e8e;
+}
+
+.card__image-small:hover,
+.card__image-lrg:hover {
   opacity: 70%;
   border-radius: 20%;
 }
 
-.sml-card {
+.small-card {
   margin: 1rem;
   padding: 1rem;
   height: 20rem;
