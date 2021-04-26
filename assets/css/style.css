@@ -44,7 +44,7 @@ body {
 }
 
 .header__nav-bar a:hover {
-  color: #686e8e;
+  color: #af4a65;
 }
 
 /* main heading */
@@ -52,9 +52,14 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -70%);
-  font-size: 5rem;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
   animation: fadeIn 2s ease-out;
+}
+
+.header__subtitle {
+  font-size: 4rem;
+  text-align: center;
 }
 
 /* about me section */
@@ -129,7 +134,7 @@ body {
 }
 
 .contact__info a:hover {
-  color: #686e8e;
+  color: #af4a65;
 }
 
 /* projects section */
@@ -169,25 +174,21 @@ body {
 }
 
 .card__image-lrg {
-  height: 30rem;
+  height: 25rem;
   width: 100%;
   object-fit: contain;
-  border-radius: 5px;
-  border: 2px solid #686e8e;
 }
 
 .card__image-small {
   height: 15rem;
   width: 100%;
   object-fit: contain;
-  border-radius: 5px;
-  border: 2px solid #686e8e;
+  border: 2px solid #af4a65;
 }
 
 .card__image-small:hover,
 .card__image-lrg:hover {
   opacity: 70%;
-  border-radius: 20%;
 }
 
 .small-card {
