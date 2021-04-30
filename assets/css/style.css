@@ -1,3 +1,10 @@
+:root {
+  --bg-white: rgba(255, 255, 255, 0.932);
+  --bg-black: rgba(0, 0, 0, 0.918);
+  --text-highlight: #af4a65;
+  --shadow: #686e8e;
+}
+
 html {
   font-size: 10px;
   font-family: "Roboto", sans-serif;
@@ -15,7 +22,7 @@ body {
   background-size: cover;
   background-position: center;
   display: block;
-  color: rgba(255, 255, 255, 0.932);
+  color: var(--bg-white);
   position: relative;
   font-family: "Domine", serif;
 }
@@ -40,11 +47,11 @@ body {
 
 .header__nav-bar a {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.932);
+  color: var(--white);
 }
 
 .header__nav-bar a:hover {
-  color: #af4a65;
+  color: var(--shadow);
 }
 
 /* main heading */
@@ -53,12 +60,15 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 3rem;
   animation: fadeIn 2s ease-out;
 }
 
-.header__subtitle {
+.header h1 {
   font-size: 4rem;
+}
+
+.header__subtitle {
+  font-size: 3rem;
   text-align: center;
 }
 
@@ -82,7 +92,7 @@ body {
   height: auto;
   object-fit: contain;
   border-radius: 50%;
-  box-shadow: 0px 0px 20px #686e8e;
+  box-shadow: 0px 0px 20px var(--shadow);
 }
 
 .about-me__info {
@@ -95,6 +105,7 @@ body {
 .about-me__title {
   text-align: center;
   font-size: 2rem;
+  font-weight: bold;
   margin: 0;
   font-family: "Domine", serif;
 }
@@ -105,26 +116,48 @@ body {
   padding: 1rem;
 }
 
+.cv-button {
+  padding: 0.5rem;
+  background-color: var(--text-highlight);
+  border: 1px solid var(--text-highlight);
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px var(--shadow);
+}
+
+.cv {
+  color: var(--bg-white);
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+.cv-button:hover {
+  padding: 0.8rem;
+}
+
+.cv:hover {
+  color: var(--bg-white);
+}
+
 /* contact section */
 .contact {
-  background-color: rgba(0, 0, 0, 0.918);
-  color: rgba(255, 255, 255, 0.932);
+  background-color: var(--bg-black);
+  color: var(--bg-white);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   height: 5rem;
-  padding: 1rem;
 }
 
 .contact h2 {
   font-family: "Domine", serif;
   font-size: 2rem;
+  padding: 1rem;
 }
 
 .contact__info {
   display: inline;
-  padding: 1rem;
   margin: 1rem;
+  padding: 0.5rem;
   font-size: 1.3rem;
 }
 
@@ -134,7 +167,7 @@ body {
 }
 
 .contact__info a:hover {
-  color: #af4a65;
+  color: var(--text-highlight);
 }
 
 /* projects section */
@@ -142,6 +175,7 @@ body {
   text-align: center;
   font-family: "Domine", serif;
   font-size: 2rem;
+  font-weight: bold;
 }
 
 .projects__cards-container {
@@ -183,7 +217,7 @@ body {
   height: 15rem;
   width: 100%;
   object-fit: contain;
-  border: 2px solid #af4a65;
+  border: 2px solid var(--text-highlight);
 }
 
 .card__image-small:hover,
@@ -191,13 +225,13 @@ body {
   opacity: 70%;
 }
 
-.small-card {
+/* .small-card {
   margin: 1rem;
   padding: 1rem;
   height: 20rem;
   max-width: 25rem;
   text-align: center;
-}
+} */
 
 .card__title {
   font-family: "Domine", serif;
@@ -212,8 +246,8 @@ body {
 
 /* footer */
 .footer {
-  background-color: rgba(0, 0, 0, 0.918);
-  color: rgba(255, 255, 255, 0.932);
+  background-color: var(--bg-black);
+  color: var(--bg-white);
   text-align: center;
   padding: 20px;
 }
@@ -239,8 +273,12 @@ body {
     font-size: 1rem;
   }
 
-  .header__title {
+  .header h1 {
     font-size: 3rem;
+  }
+
+  .header__subtitle {
+    font-size: 2rem;
   }
 
   .about-me {
@@ -287,8 +325,12 @@ body {
     font-size: 1rem;
   }
 
-  .header__title {
+  .header h1 {
     font-size: 2rem;
+  }
+
+  .header__subtitle {
+    font-size: 1rem;
   }
 }
 
