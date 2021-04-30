@@ -10,7 +10,9 @@ The aim of this project was to create a responsive personal portfolio with HTML 
 [Technologies Used](#technologies-used)  
 [Link to Deployed Application](#link-to-deployed-application)  
 [Getting Started](#getting-started)  
-[Screenshots](#screenshots)
+[Screenshots](#screenshots)  
+[License](#license)  
+[Questions](#questions)
 
 ### Features
 
