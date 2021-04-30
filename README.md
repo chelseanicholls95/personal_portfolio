@@ -1,4 +1,8 @@
-# Personal Portfolio
+# Personal Portfolio ![MIT license](https://img.shields.io/badge/license-MIT-green)
+
+## Description
+
+The aim of this project was to create a responsive personal portfolio with HTML and CSS using core skills such as flex boxes, media queries and CSS variables.
 
 ## Table of Contents
 
@@ -7,10 +11,6 @@
 [Link to Deployed Application](#link-to-deployed-application)  
 [Getting Started](#getting-started)  
 [Screenshots](#screenshots)
-
-## Description
-
-The aim of this project was to create a responsive personal portfolio with HTML and CSS using core skills such as flex boxes, media queries and CSS variables.
 
 ### Features
 
@@ -53,3 +53,12 @@ code .
 ### Mobile
 
 ![mobile screenshot](assets/screenshot/mobile.png)
+
+## License
+
+This project is licensed under the MIT license.
+
+## Questions
+
+- Visit my [GitHub](https://github.com/chelseanicholls95)
+- Email me at chelseanicholls1995@outlook.com
