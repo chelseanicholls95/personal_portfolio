@@ -116,12 +116,13 @@ body {
   padding: 1rem;
 }
 
-.cv-button {
+.button {
   padding: 0.5rem;
   background-color: var(--text-highlight);
   border: 1px solid var(--text-highlight);
   border-radius: 3px;
   box-shadow: 2px 2px 2px var(--shadow);
+  color: var(--bg-white);
 }
 
 .cv {
@@ -130,8 +131,9 @@ body {
   text-decoration: none;
 }
 
-.cv-button:hover {
+.button:hover {
   padding: 0.8rem;
+  color: var(--bg-white);
 }
 
 .cv:hover {
