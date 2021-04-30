@@ -1,5 +1,13 @@
 # Personal Portfolio
 
+## Table of Contents
+
+[Description](#description)  
+[Technologies Used](#technologies-used)  
+[Link to Deployed Application](#link-to-deployed-application)  
+[Getting Started](#getting-started)  
+[Screenshots](#screenshots)
+
 ## Description
 
 The aim of this project was to create a responsive personal portfolio with HTML and CSS using core skills such as flex boxes, media queries and CSS variables.
@@ -13,6 +21,16 @@ The aim of this project was to create a responsive personal portfolio with HTML 
 - All images are clickable and linked to the relevant pages.
 - One project image is larger than the rest - highlights best project to date.
 - Opacity and border changes when hovering over a project image.
+
+## Technologies Used
+
+- HTML5
+- CSS
+- Bootstrap
+
+## Link to Deployed Application
+
+Click [here](https://chelseanicholls95.github.io/personal_portfolio/) to view project.
 
 ## Getting Started
 
@@ -35,7 +53,3 @@ code .
 ### Mobile
 
 ![mobile screenshot](assets/screenshot/mobile.png)
-
-## Link to Deployed Application
-
-Click [here](https://chelseanicholls95.github.io/personal_portfolio/) to view project.
