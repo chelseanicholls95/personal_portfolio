@@ -239,7 +239,8 @@ body {
   }
 
   .projects__image-large {
-    height: 45vw;
+    height: 30vh;
+    width: 60vw;
   }
 }
 
@@ -296,6 +297,11 @@ body {
   .card-img-top {
     height: 55vw;
   }
+
+  .projects__image-large {
+    height: 30vh;
+    width: 80vw;
+  }
 }
 
 /* mobile screen */
@@ -315,6 +321,11 @@ body {
 
   .header__subtitle {
     font-size: 1rem;
+  }
+
+  .projects__image-large {
+    height: 30vh;
+    width: 80vw;
   }
 }
 
